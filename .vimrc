@@ -50,6 +50,7 @@ au BufNewFile,BufRead *.js,*.html,*.css,*.R,*.yml,*.yaml
     \ set tabstop=2
     \ softtabstop=2
     \ shiftwidth=2
+    \ expandtab 
 
 " congifuration for slime vim plugin
 let g:slime_python_ipython = 1
