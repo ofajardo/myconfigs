@@ -46,7 +46,7 @@ au BufNewFile,BufRead *.py
     \ autoindent 
     \ smartindent
     \ smarttab
-au BufNewFile,BufRead *.js, *.html, *.css, *.R
+au BufNewFile,BufRead *.js,*.html,*.css,*.R,*.yml,*.yaml
     \ set tabstop=2
     \ softtabstop=2
     \ shiftwidth=2
