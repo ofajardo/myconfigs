@@ -38,7 +38,7 @@ set t_Co=256
 set splitbelow
 
 " indentation for file types
-au BufNewFile,BufRead *.py
+au BufNewFile,BufRead *.py,*.pyx,*.pyd
     \ set tabstop=4
     \ softtabstop=4 
     \ shiftwidth=4 
