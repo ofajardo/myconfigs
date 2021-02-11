@@ -37,7 +37,7 @@ set t_Co=256
 " create new windows including terminal below
 set splitbelow
 " allow copying without line numbers
-se mouse+=a
+"se mouse+=a
 
 " indentation for file types
 au BufNewFile,BufRead *.py,*.pyx,*.pyd
