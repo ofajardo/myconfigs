@@ -38,6 +38,10 @@ set t_Co=256
 set splitbelow
 " allow copying without line numbers
 "se mouse+=a
+" map W to w
+:command W w
+:command Wq wq
+:command WQ wq
 
 " indentation for file types
 au BufNewFile,BufRead *.py,*.pyx,*.pyd
