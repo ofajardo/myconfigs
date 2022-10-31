@@ -44,7 +44,7 @@ set splitbelow
 :command WQ wq
 
 " indentation for file types
-au BufNewFile,BufRead *.py,*.pyx,*.pyd
+au BufNewFile,BufRead *.py,*.pyx,*.pyd,*.qmd
     \ set tabstop=4
     \ softtabstop=4 
     \ shiftwidth=4 
